@@ -14,7 +14,7 @@ def estimate_pi(num):
     for coords in points:
         if (coords[0]**2 + coords[1]**2)**.5 < 1:
             num_in_circle += 1
-    # ratio of points in circle and points out of circle
+    # ratio of points in circle and points in square
     # is approximately ratio of circle area to sqaure area
     # pi*r**2 / (2r)**2 ~ num_in_circle / len(points)
     # pi ~ 4*(num_in_circle/len(points))
