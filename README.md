@@ -8,7 +8,7 @@ A simple program which estimates the value of pi!
   
  # C version
   - must compile with -lm flag for math.h library
-  - provide argument to executable like so;
+  - provide argument to executable like so:
       ./exefile arg
   - like python version, higher integer numbers better approximate pi
   
